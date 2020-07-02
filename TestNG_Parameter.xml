@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameters TestSuite">
+<test name="Test 1">
+<parameter name="number1" value="5"></parameter>
+<parameter name="number2" value="2"></parameter>
+	<classes>
+		<class name="com.scubatraining.Gowri.Calculator.TestNG_Parameter"></class>
+	</classes>
+</test>
+</suite> 

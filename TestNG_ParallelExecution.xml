@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameters TestSuite" parallel="classes" thread-count="2">
+<test name="Parallel Execution of calc - 1">
+<parameter name="number1" value="5"></parameter>
+<parameter name="number2" value="2"></parameter>
+<parameter name="number3" value="10"></parameter>
+<parameter name="number4" value="89"></parameter>
+	<classes>
+		<class name="com.scubatraining.Gowri.Calculator.TestNG_ParallelClass1"></class>
+		<class name="com.scubatraining.Gowri.Calculator.TestNG_ParallelClass2"></class>
+	</classes>
+</test>
+</suite> 

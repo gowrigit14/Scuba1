@@ -1,0 +1,39 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Calculator TestSuite">
+<test name="Groups">
+<groups>
+	<define name="all">
+		<include name="sum"></include>
+		<include name="sub"></include>
+		<include name="mul"></include>
+		<include name="divint"></include>
+		<include name="divReal"></include>
+		<include name="exp"></include>
+		<include name="mod"></include>
+		<include name="inv"></include>
+		<include name="negate"></include>		
+	</define>
+	<define name="int">
+		<include name="sum"></include>
+		<include name="sub"></include>
+		<include name="mul"></include>
+		<include name="divint"></include>
+	</define>
+	<define name="double">
+		<include name="divReal"></include>
+		<include name="exp"></include>
+		<include name="mod"></include>
+		<include name="inv"></include>
+		<include name="negate"></include>
+	</define>
+	<run>
+		<include name="sum"></include>
+		<exclude name="negate"></exclude>
+	</run>
+</groups>
+	<classes>
+		<class name="com.scubatraining.Gowri.Calculator.TestNG_Groups"></class>
+	</classes>
+</test>
+</suite>
