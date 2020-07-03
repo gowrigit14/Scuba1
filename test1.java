@@ -1,4 +1,5 @@
 public class test1 {
+<<<<<<< HEAD
 	   public void reverseWordInMyString(String str)
 	   {
 	         
@@ -25,3 +26,12 @@ public class test1 {
 	       obj.reverseWordInMyString("dlog fo gniws a no gnigniws nosdnarg reh ees ot stnaw rehtom ym");
 	   }
 }
+=======
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("Hello World!!");
+	}
+
+}
+>>>>>>> 1fef35c7d7508fd68559b5f5633edf9bf06a043e
